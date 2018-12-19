@@ -10,6 +10,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\football.jpg" />
+    <None Remove="Assets\football.png" />
+    <None Remove="Assets\petr.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\football.jpg" />
+    <EmbeddedResource Include="Assets\football.png" />
+    <EmbeddedResource Include="Assets\petr.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
   </ItemGroup>
 
