@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MobileApp"
+             x:Class="MobileApp.MainPage">
+
+    <Grid BackgroundColor="LightGreen">
+        <Label Margin="10" FontSize="60" FontAttributes="Italic" HorizontalOptions="Center">The Foundation Of FootBall</Label>
+        <Image Source="football.jpg"/>
+        <StackLayout Padding="0,60,0,0" HorizontalOptions="Center" VerticalOptions="Center">
+            <Button FontSize="45" BackgroundColor="LightGoldenrodYellow"
+                    Text="Premier League" BorderColor="Aquamarine" Clicked="PremierLeague">
+            </Button>
+            <Button FontSize="45" BackgroundColor="Red"  TextColor="White"
+                    Text="Champions League" BorderColor="Black" Clicked="ChampionsLeague">
+            </Button>
+            <Button FontSize="45" BackgroundColor="LightGoldenrodYellow" 
+                    Text="World Cup" BorderColor="Aquamarine" Clicked="WorldCup">
+            </Button>
+            <Button FontSize="45" BackgroundColor="Red"  TextColor="White" 
+                    Text="Airtricity League" BorderColor="Black" Clicked="AirtricityLeague">
+            </Button>
+        </StackLayout>
+        <StackLayout HorizontalOptions="Start" VerticalOptions="End">
+            <Button FontSize="40" BackgroundColor="Red" FontAttributes="Bold"
+                    TextColor="White" Text="Back" BorderColor="Yellow" Clicked="BackButton">
+            </Button>
+        </StackLayout>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.ChampionsLeague">
+    <Grid BackgroundColor="LightBlue">
+        <Label Margin="10" FontSize="60" FontAttributes="Italic" TextColor="Red" HorizontalOptions="Center">About the Champions League</Label>
+        <StackLayout Padding="0,130,0,0">
+            <Label Text="Welcome to The Champions League Page please choose a topic to learn About!"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+        <StackLayout Padding="0,60,0,0" HorizontalOptions="Center" VerticalOptions="Center">
+            <Button FontSize="45" BackgroundColor="Orange" TextColor="Red"
+                    Text="What is The C.L ?" BorderColor="Blue" Clicked="AboutTheCl">
+            </Button>
+            <Button FontSize="45" BackgroundColor="Orange" TextColor="Red"
+                    Text="Stadiums n Fans" BorderColor="Blue" Clicked="Stadiums">
+            </Button>
+            <Button FontSize="45" BackgroundColor="Orange" TextColor="Red"
+                    Text="SuperStars" BorderColor="Blue" Clicked="SuperStars">
+            </Button>
+        </StackLayout>
+        <StackLayout HorizontalOptions="Start" VerticalOptions="End">
+            <Button FontSize="40" BackgroundColor="Red" FontAttributes="Bold"
+                    TextColor="White" Text="Back" BorderColor="Yellow" Clicked="BackButton">
+            </Button>
+        </StackLayout>
+    </Grid>
+</ContentPage>

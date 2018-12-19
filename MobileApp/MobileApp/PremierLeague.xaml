@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.PremierLeague">
+    <Grid BackgroundColor="Aquamarine">
+        <Label Margin="10" FontSize="60" FontAttributes="Italic" TextColor="Red" HorizontalOptions="Center">About the Premier League</Label>
+        <StackLayout Padding="0,130,0,0">
+            <Label Text="Welcome to The Premier League Page please choose a topic to learn About!"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+        <StackLayout Padding="0,60,0,0" HorizontalOptions="Center" VerticalOptions="Center">
+            <Button FontSize="45" BackgroundColor="LightSalmon" TextColor="Blue"
+                    Text="League Table" BorderColor="Red" Clicked="LeagueTable">
+            </Button>
+            <Button FontSize="45" BackgroundColor="LightSalmon" TextColor="Blue"
+                    Text="TopScorers" BorderColor="Red" Clicked="TopScorer">
+            </Button>
+            <Button FontSize="45" BackgroundColor="LightSalmon" TextColor="Blue"
+                    Text="League Legends" BorderColor="Red" Clicked="LeagueLegends">
+            </Button>
+        </StackLayout>
+        
+        <StackLayout HorizontalOptions="Start" VerticalOptions="End">
+            <Button FontSize="40" BackgroundColor="Red" FontAttributes="Bold"
+                    TextColor="White" Text="Back" BorderColor="Yellow" Clicked="BackButton">
+            </Button>
+        </StackLayout>
+    </Grid>
+</ContentPage>
