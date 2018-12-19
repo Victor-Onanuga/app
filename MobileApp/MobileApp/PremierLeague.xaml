@@ -5,11 +5,12 @@
     <Grid BackgroundColor="Aquamarine">
         <Label Margin="10" FontSize="60" FontAttributes="Italic" TextColor="Red" HorizontalOptions="Center">About the Premier League</Label>
         <StackLayout Padding="0,130,0,0">
+            <Image Aspect="AspectFit" x:Name="PremierLeagueImage" HeightRequest="200" WidthRequest="200"/>
             <Label Text="Welcome to The Premier League Page please choose a topic to learn About!"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
-        <StackLayout Padding="0,60,0,0" HorizontalOptions="Center" VerticalOptions="Center">
+        <StackLayout Padding="0,310,0,0" HorizontalOptions="Center" VerticalOptions="Center">
             <Button FontSize="45" BackgroundColor="LightSalmon" TextColor="Blue"
                     Text="League Table" BorderColor="Red" Clicked="LeagueTable">
             </Button>

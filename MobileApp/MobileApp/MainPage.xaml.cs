@@ -47,11 +47,6 @@ namespace MobileApp
 
         }
 
-        private void BackButton(object sender, EventArgs e)//Back Button
-        {
-            Navigation.PushAsync(new MainPage());
-        }
-
         /*nitializeComponent ();
             SetUpImages();
 		}

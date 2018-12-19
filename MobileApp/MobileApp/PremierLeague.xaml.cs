@@ -15,7 +15,19 @@ namespace MobileApp
 		public PremierLeague ()
 		{
 			InitializeComponent ();
-		}
+            SetUpImages();
+        }
+
+        private void SetUpImages()
+        {
+            // function to set up images
+            var assembly = typeof(MainPage);
+
+
+
+            string strFilename = "MobileApp.Assets.PremierLeague.png";
+            PremierLeagueImage.Source = ImageSource.FromResource(strFilename, assembly);
+        }
 
         private void TopScorer(object sender, EventArgs e)//TopScorer Back Button
         {
@@ -34,7 +46,7 @@ namespace MobileApp
 
         private void BackButton(object sender, EventArgs e)//Back Button
         {
-
+            Navigation.PushAsync(new MainPage());
         }
  
     }

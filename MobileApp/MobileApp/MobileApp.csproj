@@ -10,15 +10,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\ChampionsLeague.png" />
+    <None Remove="Assets\championsleague2.png" />
     <None Remove="Assets\football.jpg" />
     <None Remove="Assets\football.png" />
     <None Remove="Assets\petr.jpg" />
+    <None Remove="Assets\PremierLeague.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Assets\ChampionsLeague.png" />
+    <EmbeddedResource Include="Assets\championsleague2.png" />
     <EmbeddedResource Include="Assets\football.jpg" />
     <EmbeddedResource Include="Assets\football.png" />
     <EmbeddedResource Include="Assets\petr.jpg" />
+    <EmbeddedResource Include="Assets\PremierLeague.png" />
   </ItemGroup>
 
   <ItemGroup>
