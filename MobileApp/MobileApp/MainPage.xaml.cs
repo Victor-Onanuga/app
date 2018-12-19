@@ -14,9 +14,9 @@ namespace MobileApp
             InitializeComponent();
         }
 
-        private void PremierLeague(object sender, EventArgs e)//Premier league button
+        private void PremierLeague_Clicked(object sender, EventArgs e)//Premier league button
         {
-          //  Frame.(typeof(PremierLeague), null);
+            Navigation.PushAsync(new PremierLeague());
         }
 
         private void ChampionsLeague(object sender, EventArgs e)//Champions League button
