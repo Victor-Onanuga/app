@@ -1,20 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MobileApp.LeagueLegends"
+             x:Class="MobileApp.LeagueLegends2"
              Padding="0,25,0,0">
 
     <Grid BackgroundColor="Orange">
         <Label Margin="10" FontSize="60" FontAttributes="Italic" HorizontalOptions="Center">Legends of the Premier League</Label>
 
         <StackLayout Padding="0,60,0,0" HorizontalOptions="Center" VerticalOptions="Center">
-            <Label Text="# Most Goals in the League Ever!" FontSize="Medium"/>
-            <Image Aspect="AspectFit" x:Name="shearerImage" HeightRequest="200" WidthRequest="200"/>
-            <Label Text="Goals scored: 260"/>
+            <Label Text="# Most Appearances in the League Ever!" FontSize="Medium"/>
+            <Image Aspect="AspectFit" x:Name="barryImage" HeightRequest="200" WidthRequest="200"/>
+            <Label Text="Goals scored: 53"/>
             <Label Text="Assists: 64"/>
-            <Label Text="Appearances: 441"/>
-            <Label Text="No.of Player of the Month: 4"/>
-            <Label Text="Golden Boot: 3"/>
+            <Label Text="Appearances: 653"/>
+            <Label Text="Premier League Champion: 1"/>
         </StackLayout>
         <StackLayout HorizontalOptions="End" VerticalOptions="End">
             <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold"

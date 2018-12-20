@@ -12,12 +12,16 @@
   <ItemGroup>
     <None Remove="Assets\arsenal.png" />
     <None Remove="Assets\baller.png" />
+    <None Remove="Assets\barry.png" />
     <None Remove="Assets\burnley.png" />
+    <None Remove="Assets\cech.png" />
     <None Remove="Assets\ChampionsLeague.png" />
     <None Remove="Assets\championsleague2.png" />
     <None Remove="Assets\chelsea.png" />
+    <None Remove="Assets\clLogo.png" />
     <None Remove="Assets\football.png" />
     <None Remove="Assets\fulham.png" />
+    <None Remove="Assets\giggs.png" />
     <None Remove="Assets\huddersfield.png" />
     <None Remove="Assets\LeagueTable.png" />
     <None Remove="Assets\liverpool.png" />
@@ -26,12 +30,19 @@
     <None Remove="Assets\petr.jpg" />
     <None Remove="Assets\pierre.png" />
     <None Remove="Assets\PremierLeague.png" />
+    <None Remove="Assets\shearer.png" />
     <None Remove="Assets\sterling.png" />
     <None Remove="Assets\tottenham.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Assets\clLogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Include="Assets\baller.png" />
+    <EmbeddedResource Include="Assets\barry.png" />
+    <EmbeddedResource Include="Assets\cech.png" />
     <EmbeddedResource Include="Assets\fulham.png" />
   </ItemGroup>
 
@@ -42,6 +53,7 @@
     <EmbeddedResource Include="Assets\championsleague2.png" />
     <EmbeddedResource Include="Assets\chelsea.png" />
     <EmbeddedResource Include="Assets\football.png" />
+    <EmbeddedResource Include="Assets\giggs.png" />
     <EmbeddedResource Include="Assets\huddersfield.png" />
     <EmbeddedResource Include="Assets\LeagueTable.png" />
     <EmbeddedResource Include="Assets\liverpool.png" />
@@ -50,6 +62,7 @@
     <EmbeddedResource Include="Assets\petr.jpg" />
     <EmbeddedResource Include="Assets\pierre.png" />
     <EmbeddedResource Include="Assets\PremierLeague.png" />
+    <EmbeddedResource Include="Assets\shearer.png" />
     <EmbeddedResource Include="Assets\sterling.png" />
     <EmbeddedResource Include="Assets\tottenham.png" />
   </ItemGroup>
@@ -69,6 +82,15 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="LeagueLegends.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LeagueLegends2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LeagueLegends3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LeagueLegends4.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="LeaguePage2.xaml">

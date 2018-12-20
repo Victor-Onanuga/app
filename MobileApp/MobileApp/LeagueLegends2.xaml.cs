@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace MobileApp
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class LeagueLegends : ContentPage
+	public partial class LeagueLegends2 : ContentPage
 	{
-		public LeagueLegends ()
+		public LeagueLegends2 ()
 		{
 			InitializeComponent ();
             SetUpImages();
@@ -23,18 +23,18 @@ namespace MobileApp
             // function to set up images
             var assembly = typeof(MainPage);
 
-            string strFilename = "MobileApp.Assets.shearer.png";
-            shearerImage.Source = ImageSource.FromResource(strFilename, assembly);
+            string strFilename = "MobileApp.Assets.barry.png";
+            barryImage.Source = ImageSource.FromResource(strFilename, assembly);
         }
 
-        private void nextPage(object sender, EventArgs e)
+        private void nextPage(object sender, EventArgs e)//next button
         {
-            Navigation.PushAsync(new LeagueLegends2());
+            Navigation.PushAsync(new LeagueLegends3());
         }
 
-        private void Backbutton(object sender, EventArgs e)
+        private void Backbutton(object sender, EventArgs e)//back button
         {
-            Navigation.PushAsync(new PremierLeague());
+            Navigation.PushAsync(new LeagueLegends());
         }
     }
 }

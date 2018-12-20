@@ -15,6 +15,26 @@ namespace MobileApp
 		public AboutTheCl ()
 		{
 			InitializeComponent ();
-		}
-	}
+            SetUpImages();
+        }
+
+        private void SetUpImages()
+        {
+            // function to set up images
+            var assembly = typeof(MainPage);
+
+            string strFilename = "MobileApp.Assets.clLogo.png";
+            logoImage.Source = ImageSource.FromResource(strFilename, assembly);
+        }
+
+        private void nextPage(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Backbutton(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

@@ -1,12 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MobileApp.AboutTheCl">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+             x:Class="MobileApp.AboutTheCl"
+             Padding="0,25,0,0">
+
+    <Grid BackgroundColor="LightBlue">
+        <Label Margin="10" FontSize="60" FontAttributes="Italic" HorizontalOptions="Center">What is the Champions League?</Label>
+
+        <StackLayout Padding="0,60,0,0" HorizontalOptions="Center" VerticalOptions="Center">
+            <Image Aspect="AspectFit" x:Name="logoImage" HeightRequest="200" WidthRequest="200"/>
+            <Label Text=""/>
+            <Label Text="The UEFA Champions League is an annual club football competition organised
+                   by the Union of European Football Associations and contested by top-division European clubs"/>
+            <Label Text="Assists: 2"/>
+            <Label Text="Appearances: 443"/>
+            <Label Text="Premier League Champion: 4"/>
         </StackLayout>
-    </ContentPage.Content>
+        <StackLayout HorizontalOptions="End" VerticalOptions="End">
+            <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold"
+                  TextColor="White" Text="Next Page" BorderColor="LightBlue" Clicked="nextPage">
+            </Button>
+        </StackLayout>
+        <StackLayout HorizontalOptions="Start" VerticalOptions="End">
+            <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold"
+                    TextColor="White" Text="Back" BorderColor="LightBlue" Clicked="Backbutton">
+            </Button>
+        </StackLayout>
+    </Grid>
 </ContentPage>
