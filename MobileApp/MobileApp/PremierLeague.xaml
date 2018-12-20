@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MobileApp.PremierLeague">
+             x:Class="MobileApp.PremierLeague"
+             Padding="0,25,0,0">
+
     <Grid BackgroundColor="Aquamarine">
         <Label Margin="10" FontSize="60" FontAttributes="Italic" TextColor="Red" HorizontalOptions="Center">About the Premier League</Label>
         <StackLayout Padding="0,130,0,0">
@@ -10,7 +12,7 @@
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
-        <StackLayout Padding="0,310,0,0" HorizontalOptions="Center" VerticalOptions="Center">
+        <StackLayout Padding="0,380,0,0" HorizontalOptions="Center" VerticalOptions="Center">
             <Button FontSize="Medium" BackgroundColor="LightSalmon" TextColor="Blue"
                     Text="League Table" BorderColor="Red" Clicked="LeagueTable">
             </Button>

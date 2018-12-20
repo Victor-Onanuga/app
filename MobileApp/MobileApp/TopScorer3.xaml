@@ -1,22 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MobileApp.TopScorer"
+             x:Class="MobileApp.TopScorer3"
              Padding="0,25,0,0">
+
     <Grid BackgroundColor="Yellow">
         <Label Margin="10" FontSize="60" FontAttributes="Italic" HorizontalOptions="Center">Top 3 Scorers in the League</Label>
 
         <StackLayout Padding="0,60,0,0" HorizontalOptions="Center" VerticalOptions="Center">
-            <Label Text="#1 Top Scorer" FontSize="Medium"/>
-            <Image Aspect="AspectFit" x:Name="mosalahImage" HeightRequest="200" WidthRequest="200"/>
-            <Label Text="Goals scored: 10"/>
-            <Label Text="Assists: 4"/>
-            <Label Text="Shots on Target: 63%"/>
-            <Label Text="Minutes Played: 1399"/>
+            <Label Text="#3 Top Scorer" FontSize="Medium"/>
+            <Image Aspect="AspectFit" x:Name="sterlingImage" HeightRequest="200" WidthRequest="200"/>
+            <Label Text="Goals scored: 9"/>
+            <Label Text="Assists: 6"/>
+            <Label Text="Shots on Target: 82%"/>
+            <Label Text="Minutes Played: 1140"/>
         </StackLayout>
         <StackLayout HorizontalOptions="End" VerticalOptions="End">
             <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold"
-                  TextColor="White" Text="Next Page" BorderColor="LightBlue" Clicked="nextPage">
+                  TextColor="White" Text="Homepage" BorderColor="LightBlue" Clicked="Homepage">
             </Button>
         </StackLayout>
         <StackLayout HorizontalOptions="Start" VerticalOptions="End">

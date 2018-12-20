@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MobileApp.LeaguePage8"
-             Padding="0,40,0,0">
+             Padding="0,25,0,0">
 
     <Grid BackgroundColor="LightBlue">
         <Label Margin="10" FontSize="60" FontAttributes="Italic" HorizontalOptions="Center">Bottom 3 Teams</Label>

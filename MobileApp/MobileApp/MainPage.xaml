@@ -6,9 +6,13 @@
 
     <Grid BackgroundColor="LightGreen">
         <Label Margin="10" FontSize="60" FontAttributes="Italic" HorizontalOptions="Center">The Foundation Of FootBall</Label>
-        
-        <StackLayout Padding="0,60,0,0" HorizontalOptions="Center" VerticalOptions="Center">
+        <StackLayout Padding="0,130,0,0">
             <Image Aspect="AspectFit" x:Name="football" HeightRequest="200" WidthRequest="200"/>
+            <Label Text="Click a Button and Dive into the World of Football!"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+        <StackLayout Padding="0,360,0,0" HorizontalOptions="Center" VerticalOptions="Center">
             <!--button 1-->
             <Button FontSize="35" BackgroundColor="LightGoldenrodYellow"
                     Text="Premier League" BorderColor="Aquamarine" Clicked="PremierLeague_Clicked">

@@ -22,8 +22,11 @@
     <None Remove="Assets\LeagueTable.png" />
     <None Remove="Assets\liverpool.png" />
     <None Remove="Assets\mancity.png" />
+    <None Remove="Assets\mosalah.png" />
     <None Remove="Assets\petr.jpg" />
+    <None Remove="Assets\pierre.png" />
     <None Remove="Assets\PremierLeague.png" />
+    <None Remove="Assets\sterling.png" />
     <None Remove="Assets\tottenham.png" />
   </ItemGroup>
 
@@ -43,8 +46,11 @@
     <EmbeddedResource Include="Assets\LeagueTable.png" />
     <EmbeddedResource Include="Assets\liverpool.png" />
     <EmbeddedResource Include="Assets\mancity.png" />
+    <EmbeddedResource Include="Assets\mosalah.png" />
     <EmbeddedResource Include="Assets\petr.jpg" />
+    <EmbeddedResource Include="Assets\pierre.png" />
     <EmbeddedResource Include="Assets\PremierLeague.png" />
+    <EmbeddedResource Include="Assets\sterling.png" />
     <EmbeddedResource Include="Assets\tottenham.png" />
   </ItemGroup>
 
@@ -99,6 +105,12 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="TopScorer.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TopScorer2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TopScorer3.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="WorldCup.xaml">

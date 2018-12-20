@@ -23,15 +23,13 @@ namespace MobileApp
             // function to set up images
             var assembly = typeof(MainPage);
 
-
-
             string strFilename = "MobileApp.Assets.PremierLeague.png";
             PremierLeagueImage.Source = ImageSource.FromResource(strFilename, assembly);
         }
 
         private void TopScorer(object sender, EventArgs e)//TopScorer Back Button
         {
-
+            Navigation.PushAsync(new TopScorer());
         }
 
         private void LeagueTable(object sender, EventArgs e)//League Table Button
@@ -41,7 +39,7 @@ namespace MobileApp
 
         private void LeagueLegends(object sender, EventArgs e)//League Legends Button
         {
-
+            Navigation.PushAsync(new LeagueLegends());
         }
 
         private void BackButton(object sender, EventArgs e)//Back Button
