@@ -12,12 +12,15 @@
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
         <StackLayout Padding="0,380,0,0" HorizontalOptions="Center" VerticalOptions="Center">
+            <!-- About Champions League button-->
             <Button FontSize="Medium" BackgroundColor="Orange" TextColor="Red" CornerRadius="10"
                     Text="What is The C.L ?" BorderColor="Blue" Clicked="AboutTheCl">
             </Button>
+            <!--Stadiums button-->
             <Button FontSize="Medium" BackgroundColor="Orange" TextColor="Red" CornerRadius="10"
                     Text="Stadiums" BorderColor="Blue" Clicked="Stadiums">
             </Button>
+            <!--Superstars button-->
             <Button FontSize="Medium" BackgroundColor="Orange" TextColor="Red" CornerRadius="10"
                     Text="SuperStars" BorderColor="Blue" Clicked="SuperStars">
             </Button>

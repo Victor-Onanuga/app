@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MobileApp.WorldCup"
+             x:Class="MobileApp.WorldCup2"
              Padding="0,25,0,0">
 
     <Grid BackgroundColor="Gold">
-        <Label Margin="10" FontSize="60" FontAttributes="Italic" HorizontalOptions="Center" TextColor="LightGreen">What is the World Cup?</Label>
+        <Label Margin="10" FontSize="60" FontAttributes="Italic" HorizontalOptions="Center" TextColor="LightGreen">When and Where is the World Cup?</Label>
 
         <StackLayout Padding="0,60,0,0" HorizontalOptions="Center" VerticalOptions="Center">
-            <Image Aspect="AspectFit" x:Name="worldcupImage" HeightRequest="200" WidthRequest="200"/>
-            <Label Text=""/>
-            <Label Text="The FIFA World Cup, often simply called the World Cup, is an international association football competition contested by the senior men's national teams of the members of the Fédération Internationale de Football Association, the sport's global governing body."/>
-            <Label Text="Latest champion: France national football team"/>
+            <Image Aspect="AspectFit" x:Name="qatarImage" HeightRequest="200" WidthRequest="200"/>
+            <Label Text="The 2022 FIFA World Cup is scheduled to be the 22nd edition of the FIFA World Cup,  It is scheduled to take place in Qatar in 2022."/>
+            <Label Text="Location: Qatar"/>
+            <Label Text="Dates: Nov 21, 2022 – Dec 18, 2022"/>
             <Label Text="Most successful team(s): Brazil (5 titles)"/>
-            <Label Text="Number of teams: 32 (finals); 211 (eligible to enter qualification)"/>
-            <Label Text="Founded: 1930"/>
+            <Label Text="Venue(s): 8 or 12 (in 5 or 8 host cities)"/>
+            <Label Text="Teams: 32"/>
         </StackLayout>
         <StackLayout HorizontalOptions="End" VerticalOptions="End">
             <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold" CornerRadius="10"
-                  TextColor="White" Text="Next Page" BorderColor="LightBlue" Clicked="nextPage">
+                  TextColor="White" Text="Home Page" BorderColor="LightBlue" Clicked="homePage">
             </Button>
         </StackLayout>
         <StackLayout HorizontalOptions="Start" VerticalOptions="End">

@@ -16,10 +16,12 @@
             <Label Text="Premier League Champion: 1"/>
         </StackLayout>
         <StackLayout HorizontalOptions="End" VerticalOptions="End">
+            <!--next page button-->
             <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold" CornerRadius="10"
                   TextColor="White" Text="Next Page" BorderColor="LightBlue" Clicked="nextPage">
             </Button>
         </StackLayout>
+        <!--back page button-->
         <StackLayout HorizontalOptions="Start" VerticalOptions="End">
             <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold" CornerRadius="10"
                     TextColor="White" Text="Back" BorderColor="LightBlue" Clicked="Backbutton">

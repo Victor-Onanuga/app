@@ -32,12 +32,14 @@
     <None Remove="Assets\petr.jpg" />
     <None Remove="Assets\pierre.png" />
     <None Remove="Assets\PremierLeague.png" />
+    <None Remove="Assets\qatar.png" />
     <None Remove="Assets\ronaldo.png" />
     <None Remove="Assets\sansiro.png" />
     <None Remove="Assets\sdf.png" />
     <None Remove="Assets\shearer.png" />
     <None Remove="Assets\sterling.png" />
     <None Remove="Assets\tottenham.png" />
+    <None Remove="Assets\worldcup.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -69,12 +71,14 @@
     <EmbeddedResource Include="Assets\petr.jpg" />
     <EmbeddedResource Include="Assets\pierre.png" />
     <EmbeddedResource Include="Assets\PremierLeague.png" />
+    <EmbeddedResource Include="Assets\qatar.png" />
     <EmbeddedResource Include="Assets\ronaldo.png" />
     <EmbeddedResource Include="Assets\sansiro.png" />
     <EmbeddedResource Include="Assets\sdf.png" />
     <EmbeddedResource Include="Assets\shearer.png" />
     <EmbeddedResource Include="Assets\sterling.png" />
     <EmbeddedResource Include="Assets\tottenham.png" />
+    <EmbeddedResource Include="Assets\worldcup.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -152,6 +156,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="WorldCup.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="WorldCup2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
