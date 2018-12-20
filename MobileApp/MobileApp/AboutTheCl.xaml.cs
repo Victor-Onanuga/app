@@ -27,14 +27,9 @@ namespace MobileApp
             logoImage.Source = ImageSource.FromResource(strFilename, assembly);
         }
 
-        private void nextPage(object sender, EventArgs e)
+        private void Backbutton(object sender, EventArgs e)//back button
         {
-
-        }
-
-        private void Backbutton(object sender, EventArgs e)
-        {
-
+            Navigation.PushAsync(new ChampionsLeague());
         }
     }
 }

@@ -14,6 +14,7 @@
     <None Remove="Assets\baller.png" />
     <None Remove="Assets\barry.png" />
     <None Remove="Assets\burnley.png" />
+    <None Remove="Assets\campnou.png" />
     <None Remove="Assets\cech.png" />
     <None Remove="Assets\ChampionsLeague.png" />
     <None Remove="Assets\championsleague2.png" />
@@ -26,16 +27,21 @@
     <None Remove="Assets\LeagueTable.png" />
     <None Remove="Assets\liverpool.png" />
     <None Remove="Assets\mancity.png" />
+    <None Remove="Assets\messi.png" />
     <None Remove="Assets\mosalah.png" />
     <None Remove="Assets\petr.jpg" />
     <None Remove="Assets\pierre.png" />
     <None Remove="Assets\PremierLeague.png" />
+    <None Remove="Assets\ronaldo.png" />
+    <None Remove="Assets\sansiro.png" />
+    <None Remove="Assets\sdf.png" />
     <None Remove="Assets\shearer.png" />
     <None Remove="Assets\sterling.png" />
     <None Remove="Assets\tottenham.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Assets\campnou.png" />
     <EmbeddedResource Include="Assets\clLogo.png" />
   </ItemGroup>
 
@@ -58,10 +64,14 @@
     <EmbeddedResource Include="Assets\LeagueTable.png" />
     <EmbeddedResource Include="Assets\liverpool.png" />
     <EmbeddedResource Include="Assets\mancity.png" />
+    <EmbeddedResource Include="Assets\messi.png" />
     <EmbeddedResource Include="Assets\mosalah.png" />
     <EmbeddedResource Include="Assets\petr.jpg" />
     <EmbeddedResource Include="Assets\pierre.png" />
     <EmbeddedResource Include="Assets\PremierLeague.png" />
+    <EmbeddedResource Include="Assets\ronaldo.png" />
+    <EmbeddedResource Include="Assets\sansiro.png" />
+    <EmbeddedResource Include="Assets\sdf.png" />
     <EmbeddedResource Include="Assets\shearer.png" />
     <EmbeddedResource Include="Assets\sterling.png" />
     <EmbeddedResource Include="Assets\tottenham.png" />
@@ -73,9 +83,6 @@
 
   <ItemGroup>
     <EmbeddedResource Update="AboutTheCl.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="AirtricityLeague.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="ChampionsLeague.xaml">
@@ -123,7 +130,16 @@
     <EmbeddedResource Update="Stadiums.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Stadiums2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Stadiums3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="SuperStars.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SuperStars2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="TopScorer.xaml">

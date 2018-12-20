@@ -16,12 +16,12 @@
             <Label Text="Location: Burnley, United Kingdom"/>
         </StackLayout>
         <StackLayout HorizontalOptions="End" VerticalOptions="End">
-            <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold"
+            <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold" CornerRadius="10"
                   TextColor="White" Text="Next Page" BorderColor="Yellow" Clicked="nextPage">
             </Button>
         </StackLayout>
         <StackLayout HorizontalOptions="Start" VerticalOptions="End">
-            <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold"
+            <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold" CornerRadius="10"
                     TextColor="White" Text="Back" BorderColor="Yellow" Clicked="Backbutton">
             </Button>
         </StackLayout>

@@ -10,19 +10,15 @@
         <StackLayout Padding="0,60,0,0" HorizontalOptions="Center" VerticalOptions="Center">
             <Image Aspect="AspectFit" x:Name="logoImage" HeightRequest="200" WidthRequest="200"/>
             <Label Text=""/>
-            <Label Text="The UEFA Champions League is an annual club football competition organised
-                   by the Union of European Football Associations and contested by top-division European clubs"/>
-            <Label Text="Assists: 2"/>
-            <Label Text="Appearances: 443"/>
-            <Label Text="Premier League Champion: 4"/>
+            <Label Text="The UEFA Champions League is an annual club football competition organised by the Union of European Football Associations and contested by top-division European clubs"/>
+            <Label Text="Number of teams: 32 (group stage) 79, 80 or 81 (total)"/>
+            <Label Text="Each year, the winning team is presented with the European Champion Clubs' Cup, the current version of which has been awarded since 1967."/>
+            <Label Text="Six clubs have earned this honour: Real Madrid, Ajax, Bayern Munich, Milan, Liverpool and Barcelona."/>
+            <Label Text="Prize Money: Winning the Final: €19,000,000"/>
         </StackLayout>
-        <StackLayout HorizontalOptions="End" VerticalOptions="End">
-            <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold"
-                  TextColor="White" Text="Next Page" BorderColor="LightBlue" Clicked="nextPage">
-            </Button>
-        </StackLayout>
+
         <StackLayout HorizontalOptions="Start" VerticalOptions="End">
-            <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold"
+            <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold" CornerRadius="10"
                     TextColor="White" Text="Back" BorderColor="LightBlue" Clicked="Backbutton">
             </Button>
         </StackLayout>

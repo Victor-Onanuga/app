@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MobileApp.SuperStars"
+             x:Class="MobileApp.SuperStars2"
              Padding="0,25,0,0">
 
     <Grid BackgroundColor="LightGreen">
         <Label Margin="10" FontSize="60" FontAttributes="Italic" HorizontalOptions="Center">Champions League Super Stars</Label>
 
         <StackLayout Padding="0,60,0,0" HorizontalOptions="Center" VerticalOptions="Center">
-            <Label Text="# Cristiano Ronaldo!" FontSize="Medium"/>
-            <Image Aspect="AspectFit" x:Name="ronaldoImage" HeightRequest="200" WidthRequest="200"/>
-            <Label Text="All Time Career Goals: 670"/>
-            <Label Text="Club: Juventus"/>
-            <Label Text="All Time Assists: 215"/>
-            <Label Text="All Time Appearances: 936"/>
-            <Label Text="Nationality: Portugal"/>
+            <Label Text="# Lione Messi!" FontSize="Medium"/>
+            <Image Aspect="AspectFit" x:Name="messiImage" HeightRequest="200" WidthRequest="200"/>
+            <Label Text="All Time Career Goals: 637"/>
+            <Label Text="Club: Barcelona"/>
+            <Label Text="All Time Assists: 264"/>
+            <Label Text="All Time Appearances: 784"/>
+            <Label Text="Nationality: Argentina"/>
         </StackLayout>
         <StackLayout HorizontalOptions="End" VerticalOptions="End">
             <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold" CornerRadius="10"
-                  TextColor="White" Text="Next" BorderColor="LightBlue" Clicked="nextPage">
+                  TextColor="White" Text="Homepage" BorderColor="LightBlue" Clicked="homePage">
             </Button>
         </StackLayout>
         <StackLayout HorizontalOptions="Start" VerticalOptions="End">

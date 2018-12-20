@@ -16,12 +16,12 @@
             <Label Text="Nicknames: The Lilywhites, The Cottagers, The Whites"/>
         </StackLayout>
         <StackLayout HorizontalOptions="End" VerticalOptions="End">
-            <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold"
+            <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold" CornerRadius="10"
                   TextColor="White" Text="HomePage" BorderColor="Yellow" Clicked="HomePage">
             </Button>
         </StackLayout>
         <StackLayout HorizontalOptions="Start" VerticalOptions="End">
-            <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold"
+            <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold" CornerRadius="10"
                     TextColor="White" Text="Back" BorderColor="Yellow" Clicked="Backbutton">
             </Button>
         </StackLayout>

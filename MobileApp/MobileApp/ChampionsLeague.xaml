@@ -12,18 +12,18 @@
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
         <StackLayout Padding="0,380,0,0" HorizontalOptions="Center" VerticalOptions="Center">
-            <Button FontSize="Medium" BackgroundColor="Orange" TextColor="Red"
+            <Button FontSize="Medium" BackgroundColor="Orange" TextColor="Red" CornerRadius="10"
                     Text="What is The C.L ?" BorderColor="Blue" Clicked="AboutTheCl">
             </Button>
-            <Button FontSize="Medium" BackgroundColor="Orange" TextColor="Red"
-                    Text="Stadiums n Fans" BorderColor="Blue" Clicked="Stadiums">
+            <Button FontSize="Medium" BackgroundColor="Orange" TextColor="Red" CornerRadius="10"
+                    Text="Stadiums" BorderColor="Blue" Clicked="Stadiums">
             </Button>
-            <Button FontSize="Medium" BackgroundColor="Orange" TextColor="Red"
+            <Button FontSize="Medium" BackgroundColor="Orange" TextColor="Red" CornerRadius="10"
                     Text="SuperStars" BorderColor="Blue" Clicked="SuperStars">
             </Button>
         </StackLayout>
         <StackLayout HorizontalOptions="Start" VerticalOptions="End">
-            <Button FontSize="40" BackgroundColor="Red" FontAttributes="Bold"
+            <Button FontSize="40" BackgroundColor="Red" FontAttributes="Bold" CornerRadius="10"
                     TextColor="White" Text="Back" BorderColor="Yellow" Clicked="BackButton">
             </Button>
         </StackLayout>
