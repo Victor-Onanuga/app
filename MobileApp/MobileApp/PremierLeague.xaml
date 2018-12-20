@@ -11,13 +11,13 @@
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
         <StackLayout Padding="0,310,0,0" HorizontalOptions="Center" VerticalOptions="Center">
-            <Button FontSize="45" BackgroundColor="LightSalmon" TextColor="Blue"
+            <Button FontSize="Medium" BackgroundColor="LightSalmon" TextColor="Blue"
                     Text="League Table" BorderColor="Red" Clicked="LeagueTable">
             </Button>
-            <Button FontSize="45" BackgroundColor="LightSalmon" TextColor="Blue"
+            <Button FontSize="Medium" BackgroundColor="LightSalmon" TextColor="Blue"
                     Text="TopScorers" BorderColor="Red" Clicked="TopScorer">
             </Button>
-            <Button FontSize="45" BackgroundColor="LightSalmon" TextColor="Blue"
+            <Button FontSize="Medium" BackgroundColor="LightSalmon" TextColor="Blue"
                     Text="League Legends" BorderColor="Red" Clicked="LeagueLegends">
             </Button>
         </StackLayout>

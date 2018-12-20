@@ -36,7 +36,7 @@ namespace MobileApp
 
         private void LeagueTable(object sender, EventArgs e)//League Table Button
         {
-
+            Navigation.PushAsync(new LeagueTable());
         }
 
         private void LeagueLegends(object sender, EventArgs e)//League Legends Button

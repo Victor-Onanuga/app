@@ -10,21 +10,42 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\arsenal.png" />
+    <None Remove="Assets\baller.png" />
+    <None Remove="Assets\burnley.png" />
     <None Remove="Assets\ChampionsLeague.png" />
     <None Remove="Assets\championsleague2.png" />
-    <None Remove="Assets\football.jpg" />
+    <None Remove="Assets\chelsea.png" />
     <None Remove="Assets\football.png" />
+    <None Remove="Assets\fulham.png" />
+    <None Remove="Assets\huddersfield.png" />
+    <None Remove="Assets\LeagueTable.png" />
+    <None Remove="Assets\liverpool.png" />
+    <None Remove="Assets\mancity.png" />
     <None Remove="Assets\petr.jpg" />
     <None Remove="Assets\PremierLeague.png" />
+    <None Remove="Assets\tottenham.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Assets\baller.png" />
+    <EmbeddedResource Include="Assets\fulham.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\arsenal.png" />
+    <EmbeddedResource Include="Assets\burnley.png" />
     <EmbeddedResource Include="Assets\ChampionsLeague.png" />
     <EmbeddedResource Include="Assets\championsleague2.png" />
-    <EmbeddedResource Include="Assets\football.jpg" />
+    <EmbeddedResource Include="Assets\chelsea.png" />
     <EmbeddedResource Include="Assets\football.png" />
+    <EmbeddedResource Include="Assets\huddersfield.png" />
+    <EmbeddedResource Include="Assets\LeagueTable.png" />
+    <EmbeddedResource Include="Assets\liverpool.png" />
+    <EmbeddedResource Include="Assets\mancity.png" />
     <EmbeddedResource Include="Assets\petr.jpg" />
     <EmbeddedResource Include="Assets\PremierLeague.png" />
+    <EmbeddedResource Include="Assets\tottenham.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,6 +63,27 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="LeagueLegends.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LeaguePage2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LeaguePage3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LeaguePage4.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LeaguePage5.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LeaguePage6.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LeaguePage7.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LeaguePage8.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="LeagueTable.xaml">

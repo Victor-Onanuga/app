@@ -22,7 +22,7 @@ namespace MobileApp
 
 
 
-            string strFilename = "MobileApp.Assets.football.png";
+            string strFilename = "MobileApp.Assets.baller.png";
             football.Source = ImageSource.FromResource(strFilename, assembly);
         }
 

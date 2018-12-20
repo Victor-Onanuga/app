@@ -1,20 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MobileApp.LeagueTable"
+             x:Class="MobileApp.LeaguePage5"
              Padding="0,40,0,0">
-
     <Grid BackgroundColor="LightBlue">
         <Label Margin="10" FontSize="60" FontAttributes="Italic" HorizontalOptions="Center">Top 5 Teams</Label>
-
         <StackLayout Padding="0,60,0,0" HorizontalOptions="Center" VerticalOptions="Center">
-            <Label Text="Current Position #1" FontSize="Medium"/>
-            <Image Aspect="AspectFit" x:Name="liverpoolCrest" HeightRequest="200" WidthRequest="200"/>
-            <Label Text="Founded: 1892"/>
-            <Label Text="Manager: Jürgen Klopp"/>
-            <Label Text="Arena/Stadium: Anfield"/>
-            <Label Text="Leagues: Premier League, UEFA Champions League, FA Cup"/>
-            
+            <Label Text="Current Position #5" FontSize="Medium"/>
+            <Image Aspect="AspectFit" x:Name="arsenalCrest" HeightRequest="200" WidthRequest="200"/>
+            <Label Text="Founded: late 1886"/>
+            <Label Text="Manager: Unai Emery"/>
+            <Label Text="Arena/Stadium: Emirates Stadium"/>
+            <Label Text="Location: England, United Kingdom, London"/>
+            <Label Text="Nickname: Gunners"/>
         </StackLayout>
         <StackLayout HorizontalOptions="End" VerticalOptions="End">
             <Button FontSize="25" BackgroundColor="Red" FontAttributes="Bold"
